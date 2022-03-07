@@ -276,8 +276,6 @@
 </head>
 <body>
 
-<img src="{{url_for('static', filename='theather.jpg')}}" />
-
 
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Anton|Passion+One|PT+Sans+Caption' rel='stylesheet' type='text/css'>
@@ -290,9 +288,9 @@
                             <div class="clip"><div class="shadow"><span class="digit firstDigit"></span></div></div>
                             <div class="msg">OH!<span class="triangle"></span></div>
                         </div>
-                        <h2 class="h1">Sorry! Page not found. Possible reason(s):</h2>
+                        <h2 class="h1">Sorry! Page not found. Possible reason:</h2>
                         <ol>
-                            <li>Misspelled input. (Check Suggestions below)</li>
+                            <li>Misspelled input. (Needs )</li>
                             <li>The movie name do not exists in the database.</li>
                         </ol>
                         <input type="hidden" value="{{ name }}" id="movie_name" oninput="checkSimilarity()" readonly/>

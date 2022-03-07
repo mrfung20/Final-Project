@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:300,500&amp;display=swap'>
 <style>
+
 html {
   box-sizing: border-box;
 }
@@ -23,41 +24,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: rgb(0, 0, 0);
-}
-@media (min-width: 32rem) {
-  body {
-    font-size: 102.5%;
-  }
-}
-@media (min-width: 54rem) {
-  body {
-    font-size: 105%;
-  }
-}
-@media (min-width: 65rem) {
-  body {
-    font-size: 107.5%;
-  }
-}
-@media (min-width: 75em) {
-  body {
-    font-size: 110%;
-  }
-}
-@media (min-width: 91rem) {
-  body {
-    font-size: 115%;
-  }
-}
-@media (min-width: 115rem) {
-  body {
-    font-size: 120%;
-  }
-}
-@media (min-width: 130rem) {
-  body {
-    font-size: 125%;
-  }
+
 }
 
 a {
@@ -86,11 +53,7 @@ figure {
   width: 100%;
   visibility: hidden;
   opacity: 0;
-}
-@media (min-width: 54rem) {
-  .menu {
-    min-height: 40em;
-  }
+
 }
 .js-menu-visible .menu {
   z-index: 998;
@@ -108,15 +71,7 @@ figure {
   width: 100%;
   overflow: hidden;
 }
-.menu__img {
-  position: relative;
-  display: none;
-}
-@media (min-width: 54rem) {
-  .menu__img {
-    display: block;
-  }
-}
+
 .menu__img .absolute-bg {
   opacity: 0;
   transition: opacity 450ms cubic-bezier(0.25, 0.1, 0.25, 1) 300ms;
@@ -352,7 +307,6 @@ figure {
 </head>
 <body>
 
-  <img src="{{url_for('static', filename='theather.jpg')}}" />
 <!-- Menu -->
 
     <div class="movie">
